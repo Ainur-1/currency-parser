@@ -1,0 +1,22 @@
+{
+    "name": "ai/currency-parser",
+    "description": "парсер курсов валют с ЦБ РФ",
+    "type": "project",
+    "license": "CC-BY-SA-4.0",
+    "autoload": {
+        "psr-4": {
+            "cbr\\": "scr/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Айнур Беляев"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-pdo_pgsql": "*"
+    }
+}
